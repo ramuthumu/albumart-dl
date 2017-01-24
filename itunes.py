@@ -1,6 +1,6 @@
 
 
-import requests, sys, pyperclip, os, shutil
+import requests, sys, os, shutil
 if len(sys.argv) > 1:
     album = ' '.join(sys.argv[1:])
 else:
