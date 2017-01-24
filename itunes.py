@@ -4,7 +4,7 @@ import requests, sys, pyperclip, os, shutil
 if len(sys.argv) > 1:
     album = ' '.join(sys.argv[1:])
 else:
-    album = pyperclip.paste()
+    print("No search term given")
 
 
 res = requests.get('https://itunes.apple.com/search?term=%s&entity=album' % (album))
