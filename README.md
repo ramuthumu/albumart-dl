@@ -1,9 +1,9 @@
-# itunes-album-art-downloader
+# artwork-dl
 Download High Resolution Album art from iTunes  using Album name
 Required Dependencies : requests, sys, pyperclip, webbrowser
 
 # Usage:
-`python itunes.py albumname`
+`python albumart-dl albumname`
 
 # or    
   
