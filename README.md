@@ -1,4 +1,4 @@
-# artwork-dl
+# albumart-dl
 Download High Resolution Album art from iTunes  using Album name
 Required Dependencies : requests, sys, pyperclip, webbrowser
 
